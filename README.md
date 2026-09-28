@@ -62,8 +62,8 @@ Alongside the core allocation loop it also covers the parts that decide whether 
 | [`visionguard-ai`](https://github.com/mxxham/visionguard-ai) | **Warehouse pest detection** — a real-time dashboard over CCTV and webcam streams, running **YOLOv8-nano** behind a **FastAPI** service with WebSockets, PostgreSQL, React 18 and Recharts. |
 | [`finance-tracker`](https://github.com/mxxham/finance-tracker) | **FinTrack** — full-stack personal finance app (Next.js 15, PostgreSQL, JWT auth) with transactions, budgets and charts. <sub>[live demo](https://finance-tracker-indol-pi-64.vercel.app)</sub> |
 | [`k-one`](https://github.com/mxxham/k-one) · [`allocator_app`](https://github.com/mxxham/allocator_app) | The earlier **PHP / MySQL** generations of the warehouse system — the version `k-one-v2` was ported from. |
-| [`E2EE_Apps`](https://github.com/mxxham/E2EE_Apps) | **Kotlin / Android** client for an end-to-end encrypted messaging project. |
-| [`Assignment-Software-Engineer`](https://github.com/mxxham/Assignment-Software-Engineer) | A large TypeScript codebase — see the repo for its own documentation. |
+| [`E2EE_Apps`](https://github.com/mxxham/E2EE_Apps) | **SecureChat** — an Android messenger that implements the Signal Protocol's cryptography directly: **X3DH** key agreement on Curve P-256 and a **Double Ratchet** session cipher (AES-256-GCM, HKDF-SHA256, skipped-key handling for out-of-order delivery). The server only ever stores ciphertext. Modular Jetpack Compose + Hilt + Room on Supabase, with unit tests covering key agreement, forward secrecy and out-of-order decryption. |
+| [`Assignment-Software-Engineer`](https://github.com/mxxham/Assignment-Software-Engineer) | **obsidian-store** — a motion-first storefront for a fictional streetwear label. React 19 + Vite 6 in plain CSS, with **no UI or animation dependencies**: lerped mouse parallax, 3D card tilt, `IntersectionObserver` reveals and a custom cursor, all hand-rolled in four hooks. |
 
 ---
 
